@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(50, 49, 49);
+    overflow-x: hidden;
+}
+
+.main {
+    height: 100vh;
+    background-image: url("Assets/Images/IN-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_c6d6616f-4478-4ac2-bdac-f54b444771dd_medium.jpg");
+    position: relative;
+    background-size: max(1400px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+@media screen and (max-width : 844px) {
+
+
+    .main{
+    background-size: 644vw;
+        width: 444vw;
+    }
+    
+}
+
+
+.main .box {
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 1));
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.51;
+    position: absolute;
+    top: 0;
+
+
+}
+@media screen and (max-width : 844px) {
+   .main .box{
+    width: 1944px;
+   }
+    
+}
+
+nav {
+    max-width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    height: 79px;
+}
+
+nav img {
+    z-index: 10;
+    width: 150px;
+    color: red;
+    position: relative;
+    right: 189px;
+    top: 9px;
+    cursor: pointer;
+}
+
+nav .buttons {
+    z-index: 10;
+
+}
+
+nav .signin {
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 630;
+    width: 79px;
+    margin-left: 10px;
+    position: relative;
+    left: 188px;
+    padding: 0;
+    height: 33px;
+    border-radius: 5px;
+    background-color: rgb(229, 9, 20);
+    line-height: 31px;
+    text-align: center;
+    cursor: pointer;
+}
+.signin:hover{
+    background-color: rgba(193,17,25,255);
+}
+
+.english {
+    background-color: rgba(23, 23, 23, 0.7);
+    color: 
+    rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    height: 32px;
+    width: 126px;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 5px;
+    position: relative;
+    left: 180px;
+    cursor: pointer;
+
+}
+
+.text div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 200px;
+    padding: 10px;
+}
+
+.text .first {
+    font-size: 47px;
+    font-weight: 1000;
+}
+
+.text .third {
+    font-size: 21px;
+}
+
+.input2 {
+    position: relative;
+    left: 10px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#email {
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 56px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1.3px solid rgb(255, 255, 255, 0.4);
+    border-radius: 4px;
+    position: relative;
+    right: 12px;
+    cursor: text;
+
+}
+
+#email::placeholder {
+    color: rgb(186, 184, 184);
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 480;
+    word-spacing: -1px;
+}
+
+.get {
+    background-color: rgb(229, 9, 20);
+    border: none;
+    color: white;
+    width: 213px;
+    height: 59px;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 640;
+    border-radius: 5px;
+    line-height: 59px;
+    text-align: center;
+    cursor: pointer;
+}
+.get:hover{
+    background-color: rgba(193,17,25,255);
+}
+.box2 {
+    width: 100vw;
+    height: 580px;
+    background-color: black;
+    margin-top: 8px;
+    display: flex;
+    position: relative;
+
+}
+/* 
+@media screen and (max-width : 844px) {
+    .box2{
+        paddingl
+        width: 1538px;
+    }
+} */
+
+.fourth {
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+    padding-top: 195px;
+    padding-left: 170px;
+    white-space: nowrap;
+
+}
+
+.fifth {
+    color: white;
+
+    font-size: 24px;
+    position: relative;
+    right: 460px;
+   width: 550px;
+    top: 280px;
+    
+    z-index: 1000;
+
+
+}
+
+
+.box2 img {
+
+    height: 442px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 67px;
+    right: 414px;
+    display: block;
+    z-index: 1000;
+
+}
+
+.firstvideo video{
+    height: 241px;
+    position: absolute;
+    top: 159px; /* Adjust as necessary to position the video */
+    right: 263px; /* Adjust as necessary to position the video */
+
+}
+
+.sixth{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 195px;
+    position: relative;
+    left: 180px;
+    
+}
+.seventh{
+    color: white;
+    font-size: 24px;
+    position: relative;
+    right: 360px;
+    top: 330px;
+    
+}
+.girl{
+
+    position: relative;
+    left: 170px;
+}
+.eight {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 195px;
+    padding-left: 170px;
+    white-space: nowrap;
+
+}
+.nine{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    position: relative;
+    right: 436px;
+   width: 530px;
+    top: 280px;
+    
+    z-index: 1000;
+
+}
+.sacred{
+   position: relative;
+    left: -380px;
+}
+
+.sacredgames{
+    height: 211px;
+    position: absolute;
+    top: 118px; /* Adjust as necessary to position the video */
+    right: 293px; /* Adjust as necessary to position the video */
+   
+}
+.ten {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 198px;
+    padding-left: 175px;
+    white-space: nowrap;
+
+}
+.eleven{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    position: relative;
+    right: 537px;
+   width: 545px;
+    top: 280px;
+    
+    z-index: 1000;
+}
+
+.children{
+  left: 170px;
+}
+.lastvideo .box2{
+    height: 950px;
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    
+}
+.container5 h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    top: 57px;
+  
+}
+.questions{
+    color: white;
+    background-color: rgb(45,45,45);
+    line-height: 51px;
+    font-size: 24px;
+    font-weight: 420;
+    padding: 20px;
+   height: 48px;
+   width: 1130px;
+   position: absolute;
+   top: 150px;
+   left: 175px;
+   padding-left: 30px;
+   cursor: pointer;
+}
+.questions .svg{
+    
+position: relative;
+bottom: 50px;
+    padding-left: 1080px;
+}
+.questions:hover{
+    background-color: rgba(65,65,65,255);
+}
+
+.question2{
+   position: absolute;
+   top: 247px;
+}
+
+.question3{
+    position: absolute;
+    top: 344px;
+}
+.question4{
+    position: absolute;
+    top: 441px;
+}
+.question5{
+    position: absolute;
+    top: 538px;
+}
+.question6{
+    position: absolute;
+    top: 636px;
+}
+.thirdready{
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    left: 226px;
+    bottom: 10px;
+}
+.input2ready{
+    position: relative;
+    left: -25px;
+    top: 5px;
+}
+
+.box3 {
+    width: 100vw;
+    height: 405px;
+    background-color: black;
+    margin-top: 8px;
+    display: flex;
+    position: relative;
+
+}
+.box3 span{
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    padding-top: 70px;
+    padding-left: 173px;
+}
+.firstlist li{
+     margin-bottom: 14px;
+}
+.firstlist{
+    position: relative;
+   padding-top: 65px;
+  right: 283px;
+   top: 50px; 
+   height: 100px;
+}
+.firstlist a{
+    marker: none;
+    color: 
+    rgba(255, 255, 255, 0.7);
+     font-size: 14px;
+     font-weight: 400;
+}
+.secondlist{
+    position: relative;
+    left: -125px;
+}
+.thirdlist{
+    position: relative;
+    left: 28px;
+}
+.forthlist{
+    position: relative;
+    left: 140px;
+}
+
+.lastenglish{
+    position: relative;
+    top: 270px;
+    left: -860px;
+}
+
+
+.netflix{
+    color: 
+    rgba(255, 255, 255, 0.7);
+     font-size: 14px;
+     font-weight: 400;
+     position: relative;
+    top: 322px;
+    left: -984px;
+    height: 10px;
+}
+
